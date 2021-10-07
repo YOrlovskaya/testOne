@@ -21,11 +21,11 @@ public class BasePage {
 //        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(elementBy));
 //    }
 
-//    //Click Method
-//    public void click(By elementBy) {
-//        waitVisibility(elementBy);
-//        driver.findElement(elementBy).click();
-//    }
+    //Click Method
+    public void click(By elementBy) {
+        waitVisibility(elementBy);
+        driver.findElement(elementBy).click();
+    }
 
     public void fillInput(By elementBy, String text) {
         WebElement input = driver.findElement(elementBy);
