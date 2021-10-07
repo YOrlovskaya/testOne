@@ -5,7 +5,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
-
+//Проверка
 public class BasePage {
     public WebDriver driver;
     public WebDriverWait wait;
